@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+🚗 Overview
+The EV Charger Visualization app provides an intuitive and interactive dashboard for visualizing electric vehicle charging station data. This mobile application enables users to explore charging patterns, station availability, usage statistics, and geographic distribution of EV charging infrastructure through dynamic charts, maps, and real-time data insights.
+Key Features
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📊 Interactive Data Visualization: Rich charts and graphs displaying charging patterns, usage trends, and statistics
+🗺️ Geographic Mapping: Visual representation of charging station locations and coverage areas
+⚡ Real-time Monitoring: Live updates on charging station status and availability
+📱 Cross-platform: Runs on iOS, Android, and web platforms
+🔍 Advanced Filtering: Filter data by location, time period, charging speed, and station type
+📈 Analytics Dashboard: Comprehensive analytics for charging behavior and infrastructure utilization
+🌙 Dark/Light Theme: Customizable UI themes for better user experience
 
-## Get started
+🛠️ Tech Stack
 
-1. Install dependencies
+Framework: React Native with Expo
+Language: JavaScript/TypeScript
+Navigation: Expo Router (File-based routing)
+Charts: React Native chart libraries
+Maps: MapView integration
+State Management: React Context/Redux (if applicable)
+Styling: StyleSheet/Styled Components
+Data: JSON/API integration for real-time data
 
-   ```bash
-   npm install
-   ```
+🚀 Getting Started
+Prerequisites
+Before running this project, make sure you have the following installed:
 
-2. Start the app
+Node.js (v16 or higher)
+npm or yarn
+Expo CLI (latest version)
+Git
 
-   ```bash
-   npx expo start
-   ```
+For mobile development:
 
-In the output, you'll find options to open the app in a
+Android Studio (for Android emulator)
+Xcode (for iOS simulator - macOS only)
+Expo Go app on your mobile device (for testing)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Clone the repository
+bash
+git clone https://github.com/Rishi8520/ev-charger-visualization.git
+cd ev-charger-visualization
 
-## Get a fresh project
+Install dependencies
+npm install
+# or
+yarn install
 
-When you're ready, run:
+Start the development server
+bash
+npx expo start
 
-```bash
-npm run reset-project
-```
+Resources & Learning
+Expo Documentation
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo Documentation: Learn fundamentals and advanced topics
+Learn Expo Tutorial: Step-by-step tutorial
+File-based Routing: Navigation guide
 
-## Learn more
+Community & Support
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo GitHub: Open source platform
+Discord Community: Chat with Expo developers
+React Native Documentation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📋 Requirements
+System Requirements
 
-## Join the community
+Node.js: v16.0.0 or higher
+npm: v7.0.0 or higher
+Expo CLI: Latest version
+Mobile OS: iOS 11+, Android 5.0+ (API level 21+)
 
-Join our community of developers creating universal apps.
+Hardware Requirements
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+RAM: 4GB minimum, 8GB recommended
+Storage: 2GB free space
+Network: Stable internet connection for real-time data
+
+🐛 Troubleshooting
+Common Issues
+Metro bundler issues
+bash
+npx expo start --clear
+
+Dependency conflicts
+bash
+rm -rf node_modules package-lock.json
+npm install
+
